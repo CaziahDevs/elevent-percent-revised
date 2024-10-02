@@ -6,15 +6,14 @@ import walk3 from "./public/walkout-3.jpg"
 export default function Home() {
   return (
     <>
-      <div
-        className="flex justify-content"
-        >
+      <div className="container mx-auto">
           <Image
             src={walk1}
             alt=""
             width={800}
             height={800}
              />
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dignissimos, sint iusto, nesciunt corrupti quidem quaerat natus quibusdam reprehenderit laboriosam cupiditate ex in delectus quam placeat rerum alias? Vitae, iusto!</p>
       </div>
 
       
