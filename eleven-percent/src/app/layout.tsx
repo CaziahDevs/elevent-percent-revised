@@ -11,8 +11,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header/>
-        {children}
+        <main className="container py-4 px-6 mx-auto">
+          <Header />
+          {children}
+        </main>
+
       </body>
     </html>
   );
