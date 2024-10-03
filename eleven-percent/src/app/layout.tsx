@@ -11,7 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="container py-4 px-6 mx-auto justify-content">
+        <main className="container py-4 px-6 mx-auto ">
           <Header />
           {children}
         </main>
