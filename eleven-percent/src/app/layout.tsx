@@ -9,9 +9,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-[#FFE4C4]">
       <body>
-        <main className="container py-4 px-6 mx-auto ">
+        <main className="container py-4 px-6 mx-auto overflow-hidden">
           <Header />
           {children}
         </main>
