@@ -28,15 +28,29 @@ export default function about() {
                 <div className="border-black border-4 p-2 mt-4 px-4">
                     <p className="mt-4 text-lg ">The Elevent Percent project is a data visualization that tells the story of the growing black student population at Brown University over the last forty years. It's one of my capstone projects that I created as I concluded my time at Brown. </p>
                     <p className="mt-4 text-lg ">I named it for the demands of the Black students that walked out in protest of Brown’s biased admissions policies in 1968; One of which was that the Black student population be increased to 11% to match the national racial breakdown at the time.</p>
-                    <h4 className="text-center">Tech Stack</h4>
-                    <p></p>
-
+                    <h4 className="text-center font-bold underline mt-2">Tech Stack</h4>
+                    <ul className="list-disc list-inside text-lg mt-2">
+                        <li>Next.js</li>
+                        <li>Tailwind CSS</li>
+                        <li>Victory.js</li>
+                        <li>Python</li>
+                        <li>Vercel</li>
+                        <li>Git</li>
+                    </ul>
                 </div>
             </div>
             <div>
                 <h3 className="text-xl font-bold underline text-center mt-4">The Data</h3>
                 <div className="border-black border-4 p-2 mt-4 ">
-                <p className="mt-4 text-lg ">I gathered the data for this project from the Integrated Postsecondary Education Data System maintained by the National Center for Education Statistics. The project uses this data to create visualizations that showcase the growth of the black student population over time.</p>
+                    <p className="text-lg ">
+                        I gathered the data for this project from the Integrated Postsecondary Education
+                        Data System maintained by the National Center for Education Statistics. The
+                        project uses this data to create visualizations that showcase the growth of the
+                        black student population over time.
+                    </p>
+                    <p className="text-lg mt-2">
+                        I compiled the data by hand, organizing it in a Google spreadsheet. Then, I converted the data to jsons for the frontend to render with the Victory.js plugin.
+                    </p>
                 </div>
             </div>
         </div>
