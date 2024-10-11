@@ -1,0 +1,226 @@
+{
+    "total-undergrad": [
+        {
+            "YEAR": 1980,
+            "TOTAL STUDENTS": 5414,
+            "TOTAL BLACK STUDENTS": 335,
+            "PERCENTAGE": 6.19
+        },
+        {
+            "YEAR": 1984,
+            "TOTAL STUDENTS": 5569,
+            "TOTAL BLACK STUDENTS": 380,
+            "PERCENTAGE": 6.82
+        },
+        {
+            "YEAR": 1986,
+            "TOTAL STUDENTS": 5747,
+            "TOTAL BLACK STUDENTS": 410,
+            "PERCENTAGE": 7.13
+        },
+        {
+            "YEAR": 1988,
+            "TOTAL STUDENTS": 5957,
+            "TOTAL BLACK STUDENTS": 414,
+            "PERCENTAGE": 6.95
+        },
+        {
+            "YEAR": 1990,
+            "TOTAL STUDENTS": 5922,
+            "TOTAL BLACK STUDENTS": 393,
+            "PERCENTAGE": 6.64
+        },
+        {
+            "YEAR": 1991,
+            "TOTAL STUDENTS": 5906,
+            "TOTAL BLACK STUDENTS": 384,
+            "PERCENTAGE": 6.5
+        },
+        {
+            "YEAR": 1992,
+            "TOTAL STUDENTS": 5906,
+            "TOTAL BLACK STUDENTS": 385,
+            "PERCENTAGE": 6.52
+        },
+        {
+            "YEAR": 1993,
+            "TOTAL STUDENTS": 5992,
+            "TOTAL BLACK STUDENTS": 370,
+            "PERCENTAGE": 6.17
+        },
+        {
+            "YEAR": 1994,
+            "TOTAL STUDENTS": 6127,
+            "TOTAL BLACK STUDENTS": 374,
+            "PERCENTAGE": 6.1
+        },
+        {
+            "YEAR": 1995,
+            "TOTAL STUDENTS": 5942,
+            "TOTAL BLACK STUDENTS": 371,
+            "PERCENTAGE": 6.24
+        },
+        {
+            "YEAR": 1996,
+            "TOTAL STUDENTS": 5963,
+            "TOTAL BLACK STUDENTS": 362,
+            "PERCENTAGE": 6.07
+        },
+        {
+            "YEAR": 1997,
+            "TOTAL STUDENTS": 5958,
+            "TOTAL BLACK STUDENTS": 368,
+            "PERCENTAGE": 6.18
+        },
+        {
+            "YEAR": 1998,
+            "TOTAL STUDENTS": 6112,
+            "TOTAL BLACK STUDENTS": 375,
+            "PERCENTAGE": 6.14
+        },
+        {
+            "YEAR": 1999,
+            "TOTAL STUDENTS": 6108,
+            "TOTAL BLACK STUDENTS": 362,
+            "PERCENTAGE": 5.93
+        },
+        {
+            "YEAR": 2000,
+            "TOTAL STUDENTS": 6029,
+            "TOTAL BLACK STUDENTS": 363,
+            "PERCENTAGE": 6.02
+        },
+        {
+            "YEAR": 2001,
+            "TOTAL STUDENTS": 5999,
+            "TOTAL BLACK STUDENTS": 350,
+            "PERCENTAGE": 5.83
+        },
+        {
+            "YEAR": 2002,
+            "TOTAL STUDENTS": 6030,
+            "TOTAL BLACK STUDENTS": 356,
+            "PERCENTAGE": 5.9
+        },
+        {
+            "YEAR": 2003,
+            "TOTAL STUDENTS": 5906,
+            "TOTAL BLACK STUDENTS": 374,
+            "PERCENTAGE": 6.33
+        },
+        {
+            "YEAR": 2004,
+            "TOTAL STUDENTS": 6014,
+            "TOTAL BLACK STUDENTS": 383,
+            "PERCENTAGE": 6.37
+        },
+        {
+            "YEAR": 2005,
+            "TOTAL STUDENTS": 6176,
+            "TOTAL BLACK STUDENTS": 411,
+            "PERCENTAGE": 6.65
+        },
+        {
+            "YEAR": 2006,
+            "TOTAL STUDENTS": 6010,
+            "TOTAL BLACK STUDENTS": 402,
+            "PERCENTAGE": 6.69
+        },
+        {
+            "YEAR": 2007,
+            "TOTAL STUDENTS": 6008,
+            "TOTAL BLACK STUDENTS": 395,
+            "PERCENTAGE": 6.57
+        },
+        {
+            "YEAR": 2008,
+            "TOTAL STUDENTS": 6095,
+            "TOTAL BLACK STUDENTS": 402,
+            "PERCENTAGE": 6.6
+        },
+        {
+            "YEAR": 2009,
+            "TOTAL STUDENTS": 6244,
+            "TOTAL BLACK STUDENTS": 340,
+            "PERCENTAGE": 5.45
+        },
+        {
+            "YEAR": 2010,
+            "TOTAL STUDENTS": 6318,
+            "TOTAL BLACK STUDENTS": 368,
+            "PERCENTAGE": 5.82
+        },
+        {
+            "YEAR": 2011,
+            "TOTAL STUDENTS": 6380,
+            "TOTAL BLACK STUDENTS": 367,
+            "PERCENTAGE": 5.75
+        },
+        {
+            "YEAR": 2012,
+            "TOTAL STUDENTS": 6435,
+            "TOTAL BLACK STUDENTS": 377,
+            "PERCENTAGE": 5.86
+        },
+        {
+            "YEAR": 2013,
+            "TOTAL STUDENTS": 6455,
+            "TOTAL BLACK STUDENTS": 402,
+            "PERCENTAGE": 6.23
+        },
+        {
+            "YEAR": 2014,
+            "TOTAL STUDENTS": 6548,
+            "TOTAL BLACK STUDENTS": 422,
+            "PERCENTAGE": 6.44
+        },
+        {
+            "YEAR": 2015,
+            "TOTAL STUDENTS": 6652,
+            "TOTAL BLACK STUDENTS": 426,
+            "PERCENTAGE": 6.4
+        },
+        {
+            "YEAR": 2016,
+            "TOTAL STUDENTS": 6926,
+            "TOTAL BLACK STUDENTS": 434,
+            "PERCENTAGE": 6.27
+        },
+        {
+            "YEAR": 2017,
+            "TOTAL STUDENTS": 6988,
+            "TOTAL BLACK STUDENTS": 433,
+            "PERCENTAGE": 6.2
+        },
+        {
+            "YEAR": 2018,
+            "TOTAL STUDENTS": 7043,
+            "TOTAL BLACK STUDENTS": 441,
+            "PERCENTAGE": 6.26
+        },
+        {
+            "YEAR": 2019,
+            "TOTAL STUDENTS": 7160,
+            "TOTAL BLACK STUDENTS": 468,
+            "PERCENTAGE": 6.54
+        },
+        {
+            "YEAR": 2020,
+            "TOTAL STUDENTS": 6792,
+            "TOTAL BLACK STUDENTS": 482,
+            "PERCENTAGE": 7.1
+        },
+        {
+            "YEAR": 2021,
+            "TOTAL STUDENTS": 7349,
+            "TOTAL BLACK STUDENTS": 545,
+            "PERCENTAGE": 7.42
+        },
+        {
+            "YEAR": 2022,
+            "TOTAL STUDENTS": 7665,
+            "TOTAL BLACK STUDENTS": 572,
+            "PERCENTAGE": 7.46
+        }
+    ]
+}
