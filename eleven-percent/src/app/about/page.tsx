@@ -49,7 +49,7 @@ export default function about() {
                         black student population over time.
                     </p>
                     <p className="text-lg mt-2">
-                        I compiled the data by hand, organizing it in a Google spreadsheet. Then, I converted the data to jsons for the frontend to render with the Victory.js plugin.
+                        I compiled the data by hand, organizing it in a Google spreadsheet. Then, I converted the data to jsons for the frontend to render with the Victory.js library.
                     </p>
                 </div>
             </div>

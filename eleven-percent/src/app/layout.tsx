@@ -12,7 +12,7 @@ export default function RootLayout({
     <html lang="en" className="">
       <body>
         <Header />
-        <main className="container py-4 px-6 mx-auto overflow-hidden">
+        <main className="container  mx-auto overflow-hidden">
           {children}
         </main>
 
