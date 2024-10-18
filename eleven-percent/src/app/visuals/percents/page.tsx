@@ -1,4 +1,4 @@
-export default function percents() {
+export default function Percents() {
     return(
         <div>percents</div>
     );

@@ -1,5 +1,6 @@
+'use client'
 import Link from "next/link";
-export default function visuals() {
+export default function Visuals() {
     return (
 
         <div className="max-h-full bg-[#d2af85]">

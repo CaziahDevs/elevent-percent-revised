@@ -1,4 +1,4 @@
-export default function concl() {
+export default function Concl() {
     return(
         <div>Conclusions</div>
     );
