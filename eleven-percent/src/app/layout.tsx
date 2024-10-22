@@ -10,10 +10,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="">
-      <body>
+    <html lang="en" className="m-0">
+      <body className="m-0 min-h-dvh">
         <Header />
-        <main className="container  mx-auto overflow-hidden mb-8">
+        <main className="container mx-auto overflow-hidden mb-8 min-h-dvh">
           {children}
         </main>
         <Footer />

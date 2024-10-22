@@ -32,7 +32,6 @@ export default function Visuals() {
                     href={'/visuals/concl'}
                     className="bg-white hover:bg-gray-200 
                     transition ease-in-out  shadow-md rounded-lg p-6 "
-
                 >
                     Conclusions
                 </Link>

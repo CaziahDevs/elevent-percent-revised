@@ -1,21 +1,25 @@
 'use client'
 import { useState } from "react";
 import BarButtons from '../../components/bars/BarButtons';
+import AllStudentsBarGraph from "./graphs/AllStudentsBarGraph";
+import GradBarGraph from "./graphs/GradBarGraph";
+import UndergradBarGraph from "./graphs/UndergradBarGraph";
+
 export default function bars() {
     const [graph, setGraph] = useState('AllStudentsBar')
     let displayGraph;
     switch (graph) {
         case 'AllStudentsBar':
-            displayGraph = <div>AllStudentsBar</div>;
+            displayGraph = <AllStudentsBarGraph/>;
             break;
         case 'UndergradBar':
-            displayGraph = <div>UndergradBar</div>;
+            displayGraph = <UndergradBarGraph/>;
             break;
         case 'GradBar':
-            displayGraph = <div>GradBar</div>;
+            displayGraph = <GradBarGraph/>;
             break;
         default:
-            displayGraph = <div>AllStudentsBar</div>;
+            displayGraph = <AllStudentsBarGraph/>;
             break;
     }
     return (
