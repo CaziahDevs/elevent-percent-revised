@@ -8,7 +8,7 @@ export default function Header() {
       p-5 px-7 border-b-4 
       border-b-green-700
 
-      sticky  w-full 
+      sticky top-0  w-full 
       flex items-center 
       justify-between "
     >
