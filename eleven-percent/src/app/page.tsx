@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="flex justify-center mt-6">
+      <div className="flex justify-center mt-6 ">
         <Image
           className=" rounded-md transition ease-in-out shadow-2xl"
           src={walk1}
