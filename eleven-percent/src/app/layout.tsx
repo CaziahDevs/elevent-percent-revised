@@ -13,7 +13,7 @@ export default function RootLayout({
     <html lang="en" className="">
       <body>
         <Header />
-        <main className="container  mx-auto overflow-hidden">
+        <main className="container  mx-auto overflow-hidden mb-8">
           {children}
         </main>
         <Footer />

@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function Visuals() {
     return (
 
-        <div className="max-h-full bg-[#d2af85]">
+        <div className="max-h-full bg-[#d2af85] mb-4">
             <div className="bg-amber-600 w-full h-20 py-4 sm:py-2">
                 <div className="container mx-auto w-full  md:py-4">
                     <h2 className="text-2xl font-bold text-center ">Visualizations</h2>
                 </div>
             </div>
-            <div className="container p-4 mx-2 grid md:grid-cols-3 gap-10 align-middle text-center ">
+            <div className="container p-4 grid md:grid-cols-3 gap-10 align-middle text-center ">
                 <Link
                     href={'/visuals/percents'}
                     className="bg-white hover:bg-gray-200 
@@ -31,7 +31,7 @@ export default function Visuals() {
                 <Link
                     href={'/visuals/concl'}
                     className="bg-white hover:bg-gray-200 
-                    transition ease-in-out  shadow-md rounded-lg p-6"
+                    transition ease-in-out  shadow-md rounded-lg p-6 "
 
                 >
                     Conclusions
