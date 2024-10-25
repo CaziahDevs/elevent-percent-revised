@@ -19,7 +19,7 @@ export default function about() {
                     <p className="lg:mt-14 md:mt-5 sm:mt-0 text-lg">
                         I’m Caziah Mayers, a full stack software engineer and recent graduate from Brown University's class of 2024 where I earned my bachelor’s in Computer Science
                         and Africana Studies. I’m deeply invested in ethical computing and full stack development, and I’d like to learn more about cloud
-                        engineering and generative ai.
+                        engineering.
                     </p>
                 </div>
             </div>
