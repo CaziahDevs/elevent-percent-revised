@@ -1,5 +1,5 @@
 'use client'
-import BarButtons from "@/app/components/bars/BarButtons";
+import BarButtons from "@/app/components/GraphButtons";
 import { useState } from "react";
 import AllStudentsPGraph from "./graphs/AllStudentsPGraph";
 import GradPGraph from "./graphs/GradPGraph";

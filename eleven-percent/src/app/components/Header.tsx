@@ -4,13 +4,13 @@ export default function Header() {
   return (
     <header
       className="shadow-inner
-      bg-[#d2af85] 
-      p-5 px-7 border-b-4 
-      border-b-green-700
-
-      sticky top-0  w-full 
-      flex items-center 
-      justify-between "
+    bg-[#d2af85] 
+    p-5 px-7 border-b-4 
+    border-b-green-700
+    sticky top-0 left-0 w-full 
+    flex items-center 
+    justify-between
+    z-50"
     >
       <Link href='/'
         className="font-bold text-xl transition ease-in-out hover:underline hover:drop-shadow-lg "

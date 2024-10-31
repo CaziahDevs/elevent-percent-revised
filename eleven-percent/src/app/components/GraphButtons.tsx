@@ -1,5 +1,5 @@
 import React from 'react'
-import GraphButton from '../bars/GraphButton'
+import GraphButton from './GraphButton'
 
 const BarButtons : React.FC<{ setGraph: (graphName: string) => void}> = ({setGraph}) => {
   return (
