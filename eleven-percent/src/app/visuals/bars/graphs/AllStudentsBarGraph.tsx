@@ -1,14 +1,18 @@
 import React from 'react'
 import { VictoryChart, VictoryTheme, VictoryAxis, VictoryBar, VictoryLabel } from 'victory'
 
-const GradBarGraph = ({ total_grad, tickValues }) => {
+type Props = {
+  total_students: { "Year": number; 'TOTAL STUDENTS': number; 'TOTAL BLACK STUDENTS': number }[],
+  tickValues: number[]
+}
+const AllStudentsBarGraph:React.FC<Props> = ({ total_students, tickValues }) => {
   return (
     <div className="relative z-0">
       <div className="w-full overflow-x-auto">
-        <div className="min-w-[1500px] px-4 text-center">
+        <div className="min-w-[1500px] px-4n text-center">
           <h3 className='text-lg underline'>
             <b>
-              Growth of the Black Graduate Student Population vs Total Graduate Students
+              Growth of the Total Black Student Population vs the Total Population
             </b>
           </h3>
           <VictoryChart
@@ -18,11 +22,9 @@ const GradBarGraph = ({ total_grad, tickValues }) => {
             domainPadding={{ x: 20 }}
             domain={{ x: [1980, 2022] }}
             padding={{ top: 50, bottom: 120, left: 120, right: 50 }}
-            label='Growth of the Black graduate student population vs total population'
           >
-
             <VictoryBar
-              data={total_grad}
+              data={total_students}
               x="Year"
               y="TOTAL STUDENTS"
               barRatio={0.7}
@@ -41,7 +43,7 @@ const GradBarGraph = ({ total_grad, tickValues }) => {
 
             <VictoryBar
               style={{ data: { fill: "#c43a31" } }}
-              data={total_grad}
+              data={total_students}
               x="Year"
               y="TOTAL BLACK STUDENTS"
               labels={({ datum }) => `${datum['TOTAL BLACK STUDENTS']}`}
@@ -89,4 +91,4 @@ const GradBarGraph = ({ total_grad, tickValues }) => {
   )
 }
 
-export default GradBarGraph
+export default AllStudentsBarGraph

@@ -16,16 +16,16 @@ export default function Percents() {
     let displayGraph;
     switch (graph) {
         case 'All Students':
-            displayGraph = <AllStudentsPGraph />;
+            displayGraph = <AllStudentsPGraph total_students={total_students} tickValues={years} />;
             break;
         case 'Undergraduate':
             displayGraph = <UndergradPGraph total_undergrad={total_undergrad} tickValues={years} />;
             break;
         case 'Graduate':
-            displayGraph = <GradPGraph />;
+            displayGraph = <GradPGraph total_grad={total_grad} tickValues={years}/>;
             break;
         default:
-            displayGraph = <AllStudentsPGraph />;
+            displayGraph = <AllStudentsPGraph total_students={total_students} tickValues={years}/>;
             break;
     }
     return (

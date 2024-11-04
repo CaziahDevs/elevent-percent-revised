@@ -1,6 +1,8 @@
 import React from 'react'
+import { VictoryChart, VictoryTheme, VictoryAxis, VictoryBar, VictoryLabel } from 'victory'
+
 type Props  = {
-  total_undergrad: { YEAR: number; 'TOTAL STUDENTS': number; 'TOTAL BLACK STUDENTS': number }[], 
+  total_undergrad: { "Year": number; 'TOTAL STUDENTS': number; 'TOTAL BLACK STUDENTS': number }[], 
   tickValues: number[] 
 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { VictoryChart, VictoryTheme, VictoryAxis, VictoryBar, VictoryLabel } from 'victory'
 type Props  = {
-  total_undergrad: { YEAR: number; 'TOTAL STUDENTS': number; 'TOTAL BLACK STUDENTS': number }[], 
+  total_undergrad: { "Year": number; 'TOTAL STUDENTS': number; 'TOTAL BLACK STUDENTS': number }[], 
   tickValues: number[] 
 }
 
@@ -25,7 +25,7 @@ const UndergradBarGraph: React.FC<Props> = ({total_undergrad, tickValues}: Props
           >
             <VictoryBar
               data={total_undergrad}
-              x="YEAR"
+              x="Year"
               y="TOTAL STUDENTS"
               barRatio={0.7}
               labels={({ datum }) => `${datum['TOTAL STUDENTS'].toLocaleString()}`}
@@ -44,7 +44,7 @@ const UndergradBarGraph: React.FC<Props> = ({total_undergrad, tickValues}: Props
             <VictoryBar
               style={{ data: { fill: "#c43a31" } }}
               data={total_undergrad}
-              x="YEAR"
+              x="Year"
               y="TOTAL BLACK STUDENTS"
               labels={({ datum }) => `${datum['TOTAL BLACK STUDENTS']}`}
               labelComponent={
