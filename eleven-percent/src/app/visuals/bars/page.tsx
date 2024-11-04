@@ -15,7 +15,7 @@ export default function Bars() {
     let displayGraph;
     switch (graph) {
         case 'All Students':
-            displayGraph = <AllStudentsBarGraph total_students={total_students} tickValues={years}/>;
+            displayGraph = <AllStudentsBarGraph total_students={total_students} tickValues={years} />;
             break;
         case 'Undergraduate':
             displayGraph = <UndergradBarGraph />;
