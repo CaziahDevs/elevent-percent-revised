@@ -1,7 +1,7 @@
 import React from 'react'
 import GraphButton from './GraphButton'
 
-const BarButtons : React.FC<{ setGraph: (graphName: string) => void}> = ({setGraph}) => {
+const GraphButtons : React.FC<{ setGraph: (graphName: string) => void}> = ({setGraph}) => {
   return (
     <div className='flex bg-[#d2af85] justify-around py-6  rounded-md mt-6'>
         <GraphButton setGraph={setGraph} graphName='All Students'/>
@@ -12,4 +12,4 @@ const BarButtons : React.FC<{ setGraph: (graphName: string) => void}> = ({setGra
   )
 }
 
-export default BarButtons
+export default GraphButtons
