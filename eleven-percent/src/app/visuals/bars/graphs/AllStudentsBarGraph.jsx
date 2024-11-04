@@ -5,13 +5,19 @@ const AllStudentsBarGraph = ({ total_students, tickValues }) => {
   return (
     <div className="relative z-0">
       <div className="w-full overflow-x-auto">
-        <div className="min-w-[1500px] px-4">
+        <div className="min-w-[1500px] px-4n text-center">
+          <h3 className='text-lg underline'>
+            <b>
+              Growth of the Total Black Student Population vs the Total Population
+            </b>
+          </h3>
           <VictoryChart
             theme={VictoryTheme.clean}
             width={1500}
             height={800}
             domainPadding={{ x: 20 }}
             domain={{ x: [1980, 2022] }}
+            padding={{ top: 50, bottom: 120, left: 120, right: 50 }}
           >
             <VictoryBar
               data={total_students}
@@ -54,8 +60,10 @@ const AllStudentsBarGraph = ({ total_students, tickValues }) => {
                   angle: -45,
                   textAnchor: 'end',
                   fontWeight: 'bold'
-                }
+                },
+                axisLabel: { fontSize: 20, padding: 80, fontWeight: 'bold' }
               }}
+              label="Year"
             />
 
             <VictoryAxis
@@ -67,8 +75,10 @@ const AllStudentsBarGraph = ({ total_students, tickValues }) => {
                   textAnchor: "end",
                   padding: 5,
                   fontWeight: 'bold'
-                }
+                },
+                axisLabel: { fontSize: 20, padding: 60, fontWeight: 'bold' }
               }}
+              label="Number of Students"
             />
           </VictoryChart>
         </div>
