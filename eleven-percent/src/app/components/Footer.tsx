@@ -3,10 +3,10 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='shadow-inner bg-[#d2af85] p-5 px-7  font-bold   w-full  flex items-center justify-between'>
-            <p>�� 2024 Eleven Percent Project. All rights reserved.</p>
+        <div className='shadow-inner bg-[#d2af85] p-5 px-7  font-bold   w-full  flex items-center justify-between text-lg'>
+            <p>© 2024 Eleven Percent Project. All rights reserved.</p>
             <Link href={"https://github.com/CaziahDevs"}
-                className='hover:underline transition ease-in-out '>
+                className='hover:underline transition ease-in-out text-lg '>
                 Caziah Mayers
             </Link>
         </div>

@@ -11,7 +11,7 @@ export default function RootLayout({
     <html lang="en" className="m-0">
       <body className="m-0 min-h-dvh items-center">
         <Header />
-        <main className="container  mx-auto overflow-hidden mb-8 min-h-dvh">
+        <main className="container mx-auto overflow-hidden mb-4 min-h-dvh">
           {children}
         </main>
         <Footer />

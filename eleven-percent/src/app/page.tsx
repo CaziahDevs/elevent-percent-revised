@@ -13,7 +13,7 @@ export default function Home() {
           height={600}
         />
       </div>
-      <div className="text-center mt-6 text-xl  transition ease-in-out font-bold">
+      <div className="text-center mt-6 text-xl hover:underline transition ease-in-out font-bold">
         <Link
           href={"https://www.brown.edu/about/history/timeline/black-student-walkout"}
         >
