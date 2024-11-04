@@ -1,27 +1,47 @@
 import React from 'react'
-import { VictoryChart, VictoryTheme, VictoryAxis, VictoryBar, VictoryLabel } from 'victory'
+import { VictoryChart, VictoryTheme, VictoryAxis, VictoryLine, VictoryLabel } from 'victory'
 
 
 type Props = {
   total_grad: { "Year": number; 'TOTAL STUDENTS': number; 'TOTAL BLACK STUDENTS': number }[],
-  tickValues: number[]
+  tickValues: number[],
+  percentRange: number[],
 }
 
-const GradPGraph: React.FC<Props> = ({ total_grad, tickValues }) => {
+const GradPGraph: React.FC<Props> = ({ total_grad, tickValues, percentRange }) => {
   return (
     <div className="relative z-0">
       <div className="w-full overflow-x-auto">
         <div className="min-w-[1500px] px-4n text-center">
-          <h3 className='text-lg underline'>Growth of the Total Black Graduate Student Population vs Total Graduate Students</h3>
+          <h3 className='text-lg underline'>
+            <b>
+              Percentage of the Graduate Student Population that is Black
+            </b>
+          </h3>
           <VictoryChart
             theme={VictoryTheme.clean}
             width={1500}
-            height={800}
+            height={600}
             domainPadding={{ x: 20 }}
             domain={{ x: [1980, 2022] }}
             padding={{ top: 50, bottom: 120, left: 120, right: 50 }}
           >
-
+            <VictoryLine
+              data={total_grad}
+              x="Year"
+              y="PERCENTAGE"
+              labels={({ datum }) => `${datum['PERCENTAGE'].toLocaleString()}`}
+              labelComponent={
+                <VictoryLabel
+                  angle={-30}
+                  dx={20}
+                  dy={-10}
+                  style={[
+                    { fill: "black", fontSize: 15 }
+                  ]}
+                />
+              }
+            />
             <VictoryAxis
               tickValues={tickValues}
               style={{
@@ -38,6 +58,7 @@ const GradPGraph: React.FC<Props> = ({ total_grad, tickValues }) => {
 
             <VictoryAxis
               dependentAxis
+              tickValues={percentRange}
               style={{
                 tickLabels: {
                   fontSize: 15,
@@ -48,7 +69,7 @@ const GradPGraph: React.FC<Props> = ({ total_grad, tickValues }) => {
                 },
                 axisLabel: { fontSize: 20, padding: 60, fontWeight: 'bold' }
               }}
-              label="Number of Students"
+              label="Percentage"
             />
           </VictoryChart>
         </div>
