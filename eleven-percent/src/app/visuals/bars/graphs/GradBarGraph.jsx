@@ -8,7 +8,7 @@ const GradBarGraph = ({ total_grad, tickValues }) => {
         <div className="min-w-[1500px] px-4 text-center">
           <h3 className='text-lg underline'>
             <b>
-              Growth of the Black Graduate Student Population vs Total Population
+              Growth of the Black Graduate Student Population vs Total Graduate Students
             </b>
           </h3>
           <VictoryChart
