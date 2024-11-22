@@ -28,7 +28,7 @@ export default function Header() {
           href='/visuals'
           className="bg-blue-600 text-white transition ease-in-out hover:bg-sky-800 hover:drop-shadow-lg"
         >
-          Visualization
+          Visualizations
         </Link>
       </nav>
     </header>
