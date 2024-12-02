@@ -132,6 +132,11 @@ export default function Concl() {
                                 Deeper look into the decreased diversity in the class of 2028
                             </a>
                         </li>
+                        <li className="px-2 text-xl my-2 hover:text-blue-400 transition ease-in-out">
+                            <a href="https://www.browndailyherald.com/article/2024/10/affinity-groups-see-fewer-members-but-renewed-purpose-as-browns-diversity-plummets?utm_campaign=linkinbio&utm_medium=referral&utm_source=later-linkinbio">
+                                Affinity Groups See Fewer Students Post AA
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
