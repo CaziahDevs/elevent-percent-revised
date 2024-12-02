@@ -1,11 +1,10 @@
 export default function Concl() {
     return (
         <div className="">
-            <h1 className="text-3xl my-5 font-bold underline text-center">Conclusions</h1>
-            <div className="mt-4 gap-4  border-black border-4 p-2 ">
+            <h1 className="text-3xl my-10 font-bold text-center">Conclusions</h1>
+            <div className="my-8 gap-4   bg-slate-200 rounded-xl p-8  shadow-md border-black border-1">
                 <h2 className="text-2xl font-bold  ">Breaking Down the Data</h2>
-                <h3 className="text-xl underline my-2">Understanding the Categories</h3>
-                <div>
+                <div className="my-4 bg-[#f9f8f5] p-4 rounded-xl border-black border-1">
                     <p className="px-2 text-xl my-2">
                         IPEDS captures the following racial/ethnic categories:
                     </p>
@@ -27,7 +26,7 @@ export default function Concl() {
                         students only had the option for “Black, not hispanic” among the choices in demographic
                         surveys, which forces those of afro-latinx descent to choose between their heritages.
                     </li>
-                    <li className="px-2 text-xl my-2">This presents a key challenge when measuring racial/ethnic diversity.</li>
+                    <li className="px-2 text-xl my-2">This is one of many key challenges one encounters when measuring racial and ethnic diversity.</li>
                     <li className="px-2 text-xl my-2">
                         For the purposes of this study, I’ve focused on comparing the percentage of Black students
                         against the total student population broken down by total students, undergraduates, and
@@ -42,11 +41,11 @@ export default function Concl() {
                 </div>
             </div>
 
-            <div className="mt-4 gap-4  border-black border-4 p-2 ">
+            <div className="my-8 gap-4   bg-slate-200 rounded-xl p-8  shadow-md border-black border-1">
                 <h2 className="text-2xl font-bold my-2 ">General Trends</h2>
 
-                <div className="mt-4 gap-4  border-black border-4 p-2 ">
-                    <h3 className="text-xl underline my-4 ">Total Black Students</h3>
+                <div className="my-4 bg-[#f9f8f5] p-4 rounded-xl border-black border-1">
+                    <h3 className="text-xl underline ">Total Black Students</h3>
                     <li className="px-2 text-xl my-2">
                         From 1990 to 1999, the total black student population stuck between 424 and 448.
                     </li>
@@ -69,7 +68,7 @@ export default function Concl() {
                     </li>
                 </div>
 
-                <div className="mt-4 gap-4  border-black border-4 p-2 ">
+                <div className="bg-[#f8f6f3] p-4 rounded-xl my-4 border-black border-1">
                     <h3 className="text-xl underline my-4">Total Black Undergraduate Students</h3>
                     <div className="*:px-2 *:text-xl *:my-2">
                         <li>From 1990 to 1990, the black undegraduate population decreased as the total undergraduate population grew by 3.14%.
@@ -90,7 +89,7 @@ export default function Concl() {
 
 
                 </div>
-                <div className="mt-4 gap-4  border-black border-4 p-2 ">
+                <div className="bg-[#f8f6f3] p-4 rounded-xl my-4 border-black border-1">
                     <h3 className="text-xl underline my-4">Total Black Graduate Students</h3>
                     <div className="*:px-2 *:text-xl *:my-2">
                         <li>
@@ -118,21 +117,56 @@ export default function Concl() {
                 </div>
             </div>
 
-            <div className="mt-4 gap-4  border-black border-4 p-2 ">
+            <div className="my-8 gap-4   bg-slate-200 rounded-xl p-8  shadow-md border-black border-1">
                 <h2 className="text-2xl font-bold my-2">Closing Thoughts</h2>
+                <div className="bg-[#f8f6f3] p-4 rounded-xl my-4 border-black border-1">
+                    <h3 className="text-xl underline my-4">Affirmative Action & Shifts in Diversity at Brown</h3>
+                    <ul>
+                        <li className="px-2 text-xl my-2 hover:text-blue-400 transition ease-in-out">
+                            <a href="https://www.browndailyherald.com/article/2024/09/the-battle-over-affirmative-action-is-far-from-finished-triggering-new-legal-threats?utm_campaign=linkinbio&utm_medium=referral&utm_source=later-linkinbio">
+                                Black student enrollment back slides 40% post affirmative action
+                            </a>
+                        </li>
+                        <li className="px-2 text-xl my-2 hover:text-blue-400 transition ease-in-out">
+                            <a href="https://www.browndailyherald.com/article/2024/09/at-brown-university-black-freshman-enrollment-drops-40">
+                                Deeper look into the decreased diversity in the class of 2028
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-                <h3 className="text-xl underline my-4">Affirmative Action & Shifts in diversity at Brown</h3>
-                <ul>
-                    <li className="px-2 text-xl my-2"> Battle over AA</li>
-                    <li className="px-2 text-xl my-2">Decreased Diversity</li>
-                    <li className="px-2 text-xl my-2">Legacy admission elephant in the room</li>
-                </ul>
-
-                <h3 className="text-xl underline my-4">The impact of discrimination on students</h3>
-                <h3 className="text-xl underline my-4">The role of data visualization in understanding trends</h3>
-                <li className="px-2 text-xl my-2">The amount of data I've had access to for this study is too small to rely on statstics to support my findings. However, there is something about simply looking
-                    at each of the graphs, and being humbled (or terrified) by how little they move over time. It puts into perspective some of the experiences that I've described of my time at Brown.
-                </li>
+                <div className="bg-[#f8f6f3] p-4 rounded-xl my-4 border-black border-1">
+                    <h3 className="text-xl underline my-4">
+                        The impact of discrimination on students
+                    </h3>
+                    <li className="px-2 text-xl my-2">
+                        Something I wish I could illustrate with more time and data is how this already small population is distributed across majors at Brown.
+                        During my time, I was often the only black student in group projects, and always one of six to seven black students in the course. I'd count each time. </li>
+                    <li className="px-2 text-xl my-2">
+                        The behavior of my peers occasionally followed the imposter syndrome I experienced. My code would be insulted and I'd have my answers changed in group work.
+                        I constantly questioned if I really belonged there.
+                    </li>
+                    <li className="px-2 text-xl my-2">
+                        Looking back, I'm deeply grateful for my time at Brown for the friends I made and the skills I learned. This project is just one tool in demonstrating that no institution
+                        is perfect, and we all must do our part to improve them.
+                    </li>
+                </div>
+                <div className="bg-[#f8f6f3] p-4 rounded-xl my-4 border-black border-1">
+                    <h3 className="text-xl underline my-4">
+                        The role of data visualization in understanding trends
+                    </h3>
+                    <li className="px-2 text-xl my-2">
+                        There is something about simply looking at each of the graphs, and being humbled (or terrified) by how little they move over time.
+                        It puts into perspective some of the experiences that I've described of my time at Brown, and I'm glad that others may be able to use this information to understand the history and function of these institutions.
+                    </li>
+                    <li className="px-2 text-xl my-2">
+                        One of my favorite things I worked on in school was a data visualization project I helped develop for the software engineering course, focusing on visualizing redlining data on the city of Providence
+                        from the 1930s. I was glad to show students the myriad was that our skills could be used: telling stories about the marginalized being just one!
+                    </li>
+                    <li className="px-2 text-xl my-2">
+                        It felt natural then to expand on this interest with my own work. Thanks for engaging with it!
+                    </li>
+                </div>
             </div>
         </div>
     );
