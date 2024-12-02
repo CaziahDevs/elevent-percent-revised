@@ -9,7 +9,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="m-0">
-      <body className="m-0 min-h-dvh items-center">
+      <body className="m-0 min-h-dvh items-center font-serif font-medium">
         <Header />
         <main className="container mx-auto overflow-hidden mb-4 min-h-dvh">
           {children}
