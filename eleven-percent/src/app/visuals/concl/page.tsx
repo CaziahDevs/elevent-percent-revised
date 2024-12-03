@@ -76,8 +76,7 @@ export default function Concl() {
                         The role of data visualization in understanding trends
                     </h3>
                     <li className="px-2 text-xl my-2">
-                        There is something about simply looking at each of the graphs, and being humbled (or terrified) by how little they move over time.
-                        It puts into perspective some of the experiences that I've described of my time at Brown, and I'm glad that others may be able to use this information to understand the history and function of these institutions.
+                        {"    There is something about simply looking at each of the graphs, and being humbled (or terrified) by how little they move over time. It puts into perspective some of the experiences that I've described of my time at Brown, and I'm glad that others may be able to use this information to understand the history and function of these institutions. "}
                     </li>
                     <li className="px-2 text-xl my-2">
                         One of my favorite things I worked on in school was a data visualization project I helped develop for the software engineering course, focusing on visualizing redlining data on the city of Providence
