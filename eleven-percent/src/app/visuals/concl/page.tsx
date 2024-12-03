@@ -24,15 +24,9 @@ export default function Concl() {
                     </li>
                     <li className="px-2 text-xl my-2">This is one of many key challenges one encounters when measuring racial and ethnic diversity.</li>
                     <li className="px-2 text-xl my-2">
-                        For the purposes of this study, I've focused on comparing the percentage of Black students
-                        against the total student population broken down by total students, undergraduates, and
-                        graduate students to illustrate the general stagnation of black student growth.
+                        {"For the purposes of this study, I've focused on comparing the percentage of Black students against the total student population broken down by total students, undergraduates, and graduate students to illustrate the general stagnation of black student growth."}
                     </li>
-                    <li className="px-2 text-xl my-2">
-                        Some data for the 1980s is missing some years because IPEDS didn't have the relevant data for those years.
-                        I was also unable to retrive this missing data from the 80s or before that decade from the university despite my persistence.
-                        I apologize for the incompleteness this creates. As a result, I won't analyze those data points, but I will leave them in for relevant context.
-                    </li>
+                    <li className="px-2 text-xl my-2">{"Some data for the 1980s is missing some years because IPEDS didn't have the relevant data for those years. I was also unable to retrive this missing data from the 80s or before that decade from the university despite my persistence. I apologize for the incompleteness this creates. As a result, I won't analyze those data points, but I will leave them in for relevant context."} </li>
                 </div>
             </div>
 
@@ -61,8 +55,7 @@ export default function Concl() {
                         Despite this growth, the black student population remains less than 10% of all students.
                     </li>
                 </div>
-
-                {/* Rest of the file continues with similar apostrophe fixes */}
+                
                 <div className="bg-[#f8f6f3] p-4 rounded-xl my-4 border-black border-1">
                     <h3 className="text-xl underline my-4">
                         The impact of discrimination on students
@@ -91,7 +84,7 @@ export default function Concl() {
                         from the 1930s. I was glad to show students the myriad was that our skills could be used: telling stories about the marginalized being just one!
                     </li>
                     <li className="px-2 text-xl my-2">
-                        It felt natural then to expand on this interest with my own work. Thanks for engaging with it!
+                        {"It felt natural then to expand on this interest with my own work. Thanks for engaging with it!"}
                     </li>
                 </div>
             </div>
