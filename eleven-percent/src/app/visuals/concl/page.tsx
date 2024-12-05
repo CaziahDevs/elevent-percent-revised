@@ -1,6 +1,6 @@
 export default function Concl() {
     return (
-        <div className="">
+        <div className="mx-2">
             <h1 className="text-3xl my-10 font-bold text-center">Conclusions</h1>
             <div className="my-8 gap-4   bg-slate-200 rounded-xl p-8  shadow-md border-black border-1">
                 <h2 className="text-2xl font-bold  ">Breaking Down the Data</h2>
@@ -55,7 +55,72 @@ export default function Concl() {
                         Despite this growth, the black student population remains less than 10% of all students.
                     </li>
                 </div>
-                
+
+                <div className="bg-[#f8f6f3] p-4 rounded-xl my-4 border-black border-1">
+                    <h3 className="text-xl underline my-4">Total Black Undergraduate Students</h3>
+                    <div className="*:px-2 *:text-xl *:my-2">
+                        <li>From 1990 to 1990, the black undegraduate population decreased as the total undergraduate population grew by 3.14%.
+                            The maximum occured in 1990 at 393 black undergrads students versus the minimum 362 (tied 1996 & 1999).
+                        </li>
+                        <li>
+                            From 2000 to 2009, the black undergraduate population decreased from 6.02% to 5.45% (363 to 340 students) as the total undergraduate population grew by 3.57%.
+                            The maximum occurred in 2005 at 411 black undergrad students versus the minimum 340 (2009).</li>
+                        <li>
+                            From 2010 to 2019, the black undergraduate population increased from 5.82% to 6.54% (368 to 468 students) as the total undergraduate population grew by 13.33%.
+                            The maximum occurred in 2019 at 468 black undergrad students versus the minimum 367 (2011).</li>
+                        <li>
+                            From 2020 to 2022, the black undergraduate population increased from 7.10% to 7.46% (482 to 572 students) as the total undergraduate population grew by 12.85%.
+                            The maximum occurred in 2022 at 572 black undergrad students versus the minimum 482 (2020).
+                        </li>
+                        <li className="underline">Despite this growth, the black undergraduate student population remains less than 10% of all undergraduates.</li>
+                    </div>
+                </div>
+
+                <div className="bg-[#f8f6f3] p-4 rounded-xl my-4 border-black border-1">
+                    <h3 className="text-xl underline my-4">Total Black Graduate Students</h3>
+                    <div className="*:px-2 *:text-xl *:my-2">
+                        <li>
+                            Out of the three categories, black graduate student growth is the most stagnant.
+                        </li>
+                        <li>
+                            From 1990 to 1999, the black graduate student population decreased from 2.51% to 2.47% (34 to 33 students) as the total graduate student population declined by 1.55%.
+                            The maximum occurred in 1995 at 48 black graduate students versus the minimum 33 (1999).
+                        </li>
+                        <li >
+                            From 2000 to 2009, the black graduate student population increased from 3.37% to 4.38% (46 to 102 students) as the total graduate student population grew by 70.45%.
+                            The maximum occurred in 2009 at 102 black graduate students versus the minimum 46 (2000).
+                        </li>
+                        <li>
+                            From 2010 to 2019, the black graduate student population increased from 3.90% to 6.43% (93 to 204 students) as the total graduate student population grew by 32.93%.
+                            The maximum occurred in 2019 at 204 black graduate students versus the minimum 93 (2010).
+                        </li>
+                        <li>
+                            From 2020 to 2022, the black graduate student population increased from 6.91% to 7.52% (218 to 262 students) as the total graduate student population grew by 10.46%.
+                            The maximum occurred in 2022 at 262 black graduate students versus the minimum 218 (2020).
+                        </li>
+                        <li className="underline">Despite this growth, the black graduate student population remains less than 10% of graduate students at Brown.</li>
+                    </div>
+                </div>
+            </div>
+
+            <div className="my-8 gap-4 bg-slate-200 rounded-xl p-8  shadow-md border-black border-1">
+                <h2 className="text-2xl font-bold my-2">Closing Thoughts</h2>
+                <div className="bg-[#f8f6f3] p-4 rounded-xl my-4 border-black border-1">
+                    <h3 className="text-xl underline my-4">Affirmative Action & Shifts in Diversity at Brown</h3>
+                    <ul>
+                        <li className="px-2 text-xl my-2 hover:text-blue-400 transition ease-in-out">
+                            <a href="https://www.browndailyherald.com/article/2024/09/the-battle-over-affirmative-action-is-far-from-finished-triggering-new-legal-threats?utm_campaign=linkinbio&utm_medium=referral&utm_source=later-linkinbio">
+                                Black student enrollment back slides 40% post affirmative action
+                            </a>
+                        </li>
+                        <li className="px-2 text-xl my-2 hover:text-blue-400 transition ease-in-out">
+                            <a href="https://www.browndailyherald.com/article/2024/09/at-brown-university-black-freshman-enrollment-drops-40">
+                                Deeper look into the decreased diversity in the class of 2028
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
                 <div className="bg-[#f8f6f3] p-4 rounded-xl my-4 border-black border-1">
                     <h3 className="text-xl underline my-4">
                         The impact of discrimination on students
